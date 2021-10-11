@@ -363,7 +363,6 @@ a {
     flex-direction: column;
   }
   .food-image {
-    aspect-ratio: 16/9;
   }
   .logo-image {
     display: none;
@@ -395,6 +394,15 @@ a {
   }
   .subpost1-header {
     font-size: 1.5rem;
+  }
+  .subfood1 img,
+  .story1 img {
+    max-width: 100%;
+    display: block;
+    height: auto;
+  }
+  .recent1 {
+    font-size: 1.25rem;
   }
 }
 
