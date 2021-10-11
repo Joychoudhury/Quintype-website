@@ -1,0 +1,429 @@
+html {
+  background-color: #f7f7f7;
+}
+body {
+  margin: 0;
+}
+/* navbar */
+nav {
+  display: flex;
+  background-color: #fff;
+  font-size: 1.75rem;
+}
+.logo-threeline {
+  display: inline;
+  padding: 2%;
+}
+
+/* post1 */
+.post1 {
+  display: flex;
+  margin: 5%;
+  box-shadow: 2px 10px 10px 1px rgba(15, 15, 15, 0.2);
+  background-color: #fff;
+  flex-direction: row;
+}
+
+.post1-image-div {
+  flex: 1;
+}
+.post1-content {
+  padding: 2%;
+  flex: 1;
+}
+.writer-info {
+  display: flex;
+}
+.subpost1-header {
+  display: inline;
+  font-size: 1.25rem;
+  border-bottom: 3px solid #edd30d;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.subpost1-header-div {
+  margin-bottom: 5%;
+}
+.sub-heading {
+  font-size: 2rem;
+  font-weight: 10;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 5%;
+}
+.content1 {
+  font-size: 1.25rem;
+  margin-bottom: 5%;
+}
+.writer-details {
+  margin-top: 2.5%;
+  margin-bottom: 2.5%;
+}
+.writer-name {
+  font-weight: 100;
+}
+.writer-time {
+  font-weight: 400;
+}
+
+/* post2 */
+
+.post2 {
+  display: flex;
+  margin: 5%;
+}
+
+.subpost1 {
+  display: flex;
+  flex-direction: column;
+  box-shadow: 2px 10px 10px 1px rgba(15, 15, 15, 0.2);
+  background-color: #fff;
+  flex: 1;
+}
+.subpost1-content {
+  padding: 5%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.subpost1-subheading {
+  font-size: 1.75rem;
+}
+.subpost1-content-content {
+  font-size: 1.25rem;
+  font-weight: 100;
+}
+
+.subpost1-header-div {
+  display: block;
+}
+.subpost2 {
+  padding: 3%;
+  flex: 1;
+}
+
+.news {
+  border-bottom: 1px solid #d8d8d8;
+  margin: 6% 0;
+}
+
+.subpost2-subheader {
+  font-size: 1.25rem;
+}
+.subpost2-writer {
+  font-family: 0.25rem;
+  font-weight: 100;
+}
+
+.subpost3 {
+  flex: 1;
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+}
+.quinttype-form {
+  background-color: #2f73e4;
+  text-align: center;
+}
+
+.icon {
+  font-size: 2.5rem;
+}
+button {
+  padding: 2%;
+  border-radius: 100px;
+  width: 30%;
+  background-color: #2f73e4;
+  border: 2px solid #fff;
+  color: #fff;
+}
+button:hover {
+  cursor: pointer;
+}
+.subscribe {
+  font-size: 1.25rem;
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.email {
+  height: 1.5rem;
+  width: 80%;
+  border-radius: 5px;
+  margin-left: 5%;
+  margin-bottom: 4%;
+  border: none;
+}
+
+/* politics */
+
+.politics-header {
+  font-size: 2rem;
+  margin: 5%;
+}
+
+.politics-news {
+  margin: 5%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.trump {
+  margin-right: 5%;
+  background-image: url(https://ritikaagarwal1.github.io/Mobile-First-Responsive-webpage/assets/images/politics-image.jpg);
+  color: #fff;
+  background-size: 100% 100%;
+}
+.trump-content {
+  margin-top: 90%;
+  margin-left: 3%;
+  padding: 5%;
+}
+.trump-content h2 {
+  font-size: 2rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.politics-subnews {
+  display: flex;
+  flex-direction: column;
+  margin: 3%;
+}
+.political-subnews1 {
+  margin: 2%;
+  box-shadow: 2px 10px 10px 1px rgba(15, 15, 15, 0.2);
+  background-color: #fff;
+}
+.political-subnews1-content {
+  font-size: 2rem;
+  margin: 3%;
+}
+.political-writer-info {
+  margin: 3%;
+}
+.political-subnews2 {
+  background-color: #fff;
+  margin: 2%;
+  box-shadow: 2px 10px 10px 1px rgba(15, 15, 15, 0.2);
+}
+.political-subnews2-content {
+  font-size: 2rem;
+  margin: 3%;
+}
+.political-subnews3 {
+  display: flex;
+  flex-direction: column;
+  padding: 4%;
+  margin: 3%;
+}
+.pol-sub {
+  border-bottom: 1px solid #d8d8d8;
+}
+.pol-sub-content {
+  font-size: 1.5rem;
+  font-weight: 100;
+}
+.pol-sub-writer {
+  font-size: 1rem;
+}
+
+/* food */
+
+.foodandhealth {
+  margin-bottom: 5%;
+}
+.food {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 5%;
+}
+.subfood1 {
+  display: flex;
+  flex-direction: row;
+  box-shadow: 2px 10px 10px 1px rgba(15, 15, 15, 0.2);
+  margin: 3%;
+  background-color: #fff;
+}
+.subfood1-header {
+  font-size: 1.5rem;
+  margin: 5%;
+}
+.subfood1-writer {
+  margin: 5%;
+}
+
+.main-food {
+  box-shadow: 2px 10px 10px 1px rgba(15, 15, 15, 0.2);
+}
+.main-food-content {
+  margin: 5%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.main-food-heading {
+  font-size: 1.75rem;
+}
+.main-food-writing {
+  font-size: 1.5rem;
+}
+
+/* recent */
+.recent {
+  margin: 2% 1%;
+}
+.recent-header {
+  font-size: 2rem;
+}
+
+.stories {
+  display: flex;
+  flex-direction: column;
+  margin: 5%;
+  background-color: #fff;
+}
+
+.story1 {
+  display: flex;
+  flex-direction: row;
+  margin: 1%;
+}
+.story1-content {
+  width: 33%;
+  margin: 2%;
+}
+
+.story1-writing {
+  font-size: 1.75rem;
+}
+.story1-writer {
+  margin: 0;
+  padding: 0;
+}
+.posted-time {
+  margin: 0;
+}
+.circle {
+  border-bottom: 20px dotted blue;
+  width: 6%;
+  margin: 5%;
+  justify-content: center;
+}
+footer {
+  display: flex;
+  flex-direction: row;
+  background-color: #222222;
+  margin: 0;
+  padding: 1%;
+}
+a {
+  text-decoration: none;
+  margin: 1%;
+  color: #fff;
+}
+.logo {
+  padding: 2%;
+  flex: 1;
+  text-align: left;
+}
+.logo-end {
+  flex: 1;
+  text-align: right;
+  color: #fff;
+}
+.taketo {
+  border-right: 2px solid #fff;
+  padding: 0 2%;
+  font-size: 1.2rem;
+}
+.taketo1 {
+  padding: 0 2%;
+  font-size: 1.2rem;
+}
+.copyright {
+  font-size: 1.2rem;
+  padding: 0 4%;
+}
+.quintype {
+  font-size: 1rem;
+  padding: 0 4%;
+  font-weight: bolder;
+}
+@media only screen and (max-width: 1024px) {
+  .post1 {
+    flex-direction: column;
+  }
+  .post2 {
+    flex-direction: column;
+  }
+  .quinttype {
+    position: absolute;
+    z-index: -1;
+  }
+  .button {
+    margin: 3%;
+  }
+  .politics-news {
+    display: flex;
+    flex-direction: column;
+  }
+  .food {
+    display: flex;
+    flex-direction: column;
+  }
+  .food-image {
+    aspect-ratio: 16/9;
+  }
+  .logo-image {
+    display: none;
+  }
+  .story1-content {
+    width: 50%;
+  }
+  footer {
+    display: block;
+  }
+  .logo {
+    display: none;
+  }
+  .logo-end {
+    text-align: center;
+  }
+}
+
+/* carousel */
+.container {
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+}
+
+.slider-inner {
+  width: 500px;
+  height: 300px;
+  position: relative;
+  overflow: hidden;
+  float: left;
+  padding: 3px;
+  border: #666 solid 1px;
+}
+.slider-inner img {
+  display: none;
+  width: 500px;
+  height: 300px;
+}
+.slider-inner img.active {
+  display: inline-block;
+}
+.prev,
+.next {
+  float: left;
+  margin-top: 130px;
+  cursor: pointer;
+}
+.prev {
+  position: relative;
+  margin-right: -5%;
+  z-index: 100;
+}
+.next {
+  position: relative;
+  margin-left: -5%;
+  z-index: 100;
+}
+
+.caret.caret-up {
+  border-top-width: 0;
+  border-bottom: 4px solid #fff;
+}
