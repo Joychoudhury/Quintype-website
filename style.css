@@ -397,9 +397,7 @@ a {
   }
   .subfood1 img,
   .story1 img {
-    max-width: 100%;
-    display: block;
-    height: auto;
+    height: 127px;
   }
   .recent1 {
     font-size: 1.25rem;
