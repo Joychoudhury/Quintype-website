@@ -1,0 +1,617 @@
+/* base class */
+.box-shadow {
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+.heading {
+  border-bottom: 3px solid #000;
+  width: 11%;
+  font-weight: 800;
+}
+.border-bottom {
+  border-bottom: 1px solid #d8d8d8;
+}
+
+/* body */
+body {
+  font-family: lato, sans-serif;
+}
+
+/* content */
+
+.content {
+  background-color: #f7f7f7;
+}
+
+/* nav */
+.nav {
+  display: flex;
+  background-color: #fff;
+  width: 100%;
+  padding: 0.25rem 0;
+}
+.nav-1,
+.nav-2 {
+  flex: 1;
+}
+.nav-1 .fa-bars {
+  margin: 0 0.188rem 0 0.313rem;
+}
+.nav-1 {
+  font-size: 1.5rem;
+  font-weight: 800;
+}
+.nav-2 {
+  text-align: right;
+}
+.nav-title {
+  margin: 0;
+}
+.nav2-input {
+  background-color: #fff;
+  border: none;
+  width: 80%;
+}
+.fa-search {
+  margin: 0 0.188rem 0 0.313rem;
+}
+
+/* science */
+
+.science {
+  margin: 1%;
+  display: flex;
+  background-color: #fff;
+}
+.science-img,
+.science-inside {
+  flex: 1;
+}
+.science-inside {
+  padding: 0.5rem;
+}
+.science-heading {
+  font-size: 1.125rem;
+  font-weight: 800;
+  margin: 0.5rem 0;
+  border-color: #edd30d;
+}
+.science-content-1 {
+  font-size: 2.125rem;
+  line-height: 2.5rem;
+}
+.science-content-2 {
+  font-size: 1.125rem;
+}
+.writer-info-content {
+  font-size: 0.875rem;
+  margin: 0;
+}
+.writer-image {
+  width: 10%;
+}
+.science-img img {
+  height: 28rem;
+}
+.science-img {
+  height: 28.1rem;
+}
+.science-writer {
+  display: flex;
+}
+.writer-info {
+  margin: auto 0;
+}
+
+/* business */
+.business {
+  display: flex;
+}
+.item-a,
+.item-b,
+.item-c {
+  flex: 1;
+  margin: 1%;
+}
+.item-a {
+  background-color: #fff;
+}
+.item-a-content {
+  padding: 1rem;
+}
+.item-a-heading {
+  font-size: 0.875rem;
+  font-weight: 800;
+  margin: 0.5rem 0;
+  border-color: #f26c60;
+}
+.item-a-content-1 {
+  font-size: 1.5rem;
+}
+.item-a-content-2 {
+  font-size: 0.875rem;
+}
+.travel,
+.science-2,
+.health {
+  padding: 3%;
+  margin: 3% auto;
+}
+.travel-heading {
+  margin: 0;
+  border-color: #60bcf2;
+  margin-bottom: 0.5rem;
+  width: 15%;
+  line-height: 1rem;
+  font-size: 0.875rem;
+}
+.health-heading {
+  margin: 0;
+  border-color: #f260a4;
+  margin-bottom: 0.5rem;
+  width: 45%;
+  line-height: 1rem;
+  font-size: 0.875rem;
+}
+
+.science-2-heading {
+  font-size: 0.875rem;
+  border-color: #edd30d;
+  margin: 0;
+  margin-bottom: 0.5rem;
+  width: 15%;
+  line-height: 1rem;
+}
+.item-b-content {
+  font-size: 1.375rem;
+  font-weight: 800;
+  margin: 0;
+  margin-bottom: 0.5rem;
+  line-height: 1.75rem;
+}
+.item-b-writer {
+  margin: 0;
+  font-size: 0.875rem;
+}
+.sub-box {
+  margin: 3% 0;
+  background-color: #2f73e4;
+  padding: 15% 0;
+  color: #fff;
+  text-align: center;
+}
+.fa-envelope {
+  margin: 0 auto;
+}
+.email {
+  background-color: #fff;
+  width: 75%;
+  border: none;
+  border-radius: 5px;
+}
+.sub-button {
+  background: transparent;
+  border: 3px solid #fff;
+  display: block;
+  color: #fff;
+  margin: 3% auto;
+  border-radius: 100px;
+  padding: 2%;
+  width: 30%;
+}
+/* carousel */
+.w-100.img-fluid {
+  height: 55vh;
+}
+.carousel {
+  margin: 1%;
+  margin-bottom: 2%;
+}
+
+/* politics */
+.politics-header {
+  font-size: 2.125rem;
+  line-height: 2.5rem;
+  border-color: #6093f2;
+  margin: 1%;
+}
+.pol-a {
+  grid-area: trump;
+  background-image: url(https://ritikaagarwal1.github.io/Mobile-First-Responsive-webpage/assets/images/politics-image.jpg);
+  background-size: cover;
+  margin: 3%;
+  color: #fff;
+  padding: 3%;
+  height: 40rem;
+  display: flex;
+  flex-direction: column;
+}
+.up {
+  flex: 1;
+}
+.bottom {
+  flex: 1;
+}
+.pol-a-content {
+  font-size: 2.125rem;
+  font-weight: 800;
+}
+.pol-b {
+  grid-area: box-a;
+  margin: 3%;
+}
+.box-a-content {
+  padding: 1rem;
+}
+.pol-c {
+  margin: 3%;
+  grid-area: box-b;
+  padding: 1rem;
+}
+.pol-d {
+  margin: 3%;
+  grid-area: news-1;
+}
+.pol-e {
+  margin: 3%;
+  grid-area: news-2;
+}
+.pol-f {
+  margin: 3%;
+  grid-area: news-3;
+}
+.pol-g {
+  margin: 3%;
+  grid-area: news-4;
+}
+
+.politics-container {
+  display: grid;
+  grid-template-areas:
+    "trump box-a news-1"
+    "trump box-a news-2"
+    "trump box-a news-3"
+    "trump box-b news-4";
+}
+.pol-b-content {
+  font-size: 1.5rem;
+}
+.pol-b-writer {
+  font-size: 1rem;
+}
+.pol-c-content {
+  font-size: 1.375rem;
+  font-weight: 800;
+  line-height: 2rem;
+}
+.pol-c-writer {
+  font-size: 0.75rem;
+}
+/* food */
+.food-heading {
+  margin: 1%;
+  font-size: 2.125rem;
+  border-color: #f260a4;
+  width: 21%;
+}
+.food-a {
+  grid-area: food-1;
+  display: flex;
+  background-color: #fff;
+  margin: 2%;
+}
+.food-b {
+  display: flex;
+  background-color: #fff;
+  margin: 2%;
+  grid-area: food-2;
+}
+.food-c {
+  display: flex;
+  margin: 2%;
+  background-color: #fff;
+  grid-area: food-3;
+}
+.food-d {
+  margin: 1%;
+  background-color: #fff;
+  grid-area: food-4;
+}
+.food-container {
+  display: grid;
+  grid-template-areas:
+    "food-1 food-4"
+    "food-2 food-4"
+    "food-3 food-4";
+}
+.food-img,
+.food-inside {
+  flex: 1;
+}
+.food-img {
+  object-fit: fill;
+}
+
+.food-content {
+  padding: 1rem;
+  font-size: 1.275rem;
+  margin: 0;
+  line-height: 1.5rem;
+}
+.food-writer {
+  font-size: 0.875rem;
+  padding: 0 1rem;
+  margin: 0;
+}
+.food-content-bigger {
+  font-size: 1.875rem;
+}
+.food-content-bigger-2 {
+  font-size: 1rem;
+}
+.food-d-content {
+  padding: 1rem;
+}
+/* read */
+.read {
+  display: none;
+}
+/* recent */
+.recent {
+  background-color: #fff;
+}
+.recent-heading {
+  margin: 1%;
+  font-size: 2.125rem;
+  border-color: #6093f2;
+  width: 21%;
+}
+.recent-a,
+.recent-b,
+.recent-c {
+  display: flex;
+  margin: 1%;
+}
+.recent-img,
+.recent-inside,
+.blank {
+  flex: 1;
+}
+.recent-inside {
+  padding: 1rem;
+}
+.recent-head {
+  font-size: 0.875rem;
+  border-color: #f260a4;
+  width: 40%;
+}
+.recent-content {
+  font-size: 1.5rem;
+}
+.content-writer-1 {
+  font-size: 1.125rem;
+  margin: 0%;
+}
+.content-writer {
+  font-size: 0.875rem;
+  margin: 0%;
+}
+/* footer */
+.footer {
+  display: flex;
+  background-color: #222222;
+  padding: 1% 5%;
+}
+.footer-1 {
+  flex: 1;
+}
+.footer-2 {
+  text-align: right;
+  flex: 1;
+  color: #fff;
+}
+.link {
+  display: inline;
+  padding: 0 2%;
+}
+.border-left {
+  border-right: 1px solid #fff;
+  border-width: 10%;
+}
+.copyright {
+  margin: 0;
+  margin-top: 2%;
+}
+.powered {
+  font-weight: 800;
+}
+/* dot */
+.dot {
+  text-align: center;
+}
+.circle {
+  height: 20px;
+  width: 20px;
+  margin: 0.5%;
+  background-color: #2f73e8;
+  border-radius: 50%;
+  display: inline-block;
+}
+@media only screen and (min-width: 1140px) {
+  .content {
+    padding: 2% 7% 0 7%;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .science {
+    margin: 0;
+  }
+  .science-heading {
+    font-size: 12px;
+  }
+  .science-content-2 {
+    display: none;
+  }
+  .science-img img {
+    height: 100%;
+  }
+  .science-img {
+    height: 100%;
+  }
+  /* business */
+  .item-c {
+    display: none;
+  }
+  .travel-heading,
+  .health-heading,
+  .science-2-heading {
+    font-size: 0.75rem;
+  }
+  .item-b-content {
+    font-size: 1.125rem;
+  }
+  .item-b-writer {
+    font-size: 0.87rem;
+  }
+  .politics-container {
+    display: grid;
+    grid-template-areas:
+      "trump box-a "
+      "trump box-b "
+      "news-1 news-2 "
+      "news-3 news-4";
+  }
+  .pol-f {
+    border: none !important;
+  }
+  .pol-c-content {
+    font-size: 18px;
+  }
+  /* food */
+  .food-heading {
+    font-size: 24px;
+    width: 20%;
+  }
+  .food-content {
+    font-size: 14px;
+    line-height: 1rem;
+    padding: 0.75rem;
+  }
+  .food-writer {
+    padding: 0 0.75rem;
+    font-size: 12px;
+  }
+  .food-content-bigger {
+    font-size: 26px;
+  }
+  .food-content-bigger {
+    font-size: 18px;
+  }
+  .food-content-bigger-2 {
+    font-size: 14px;
+  }
+  /* recent */
+  .recent-heading {
+    width: 30%;
+  }
+  .blank {
+    display: none;
+  }
+  .recent-head {
+    width: 35%;
+  }
+  .footer-1 {
+    display: none;
+  }
+  .footer-2 {
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 426px) {
+  /* nav */
+  .nav2-input {
+    width: 50%;
+  }
+  /* science */
+  .science {
+    margin: 0;
+    display: block;
+  }
+
+  /* business */
+  .business {
+    display: block;
+  }
+  .item-c {
+    display: block;
+  }
+  .ad {
+    display: none;
+  }
+  .sub-box {
+    width: 100%;
+  }
+  /* politics */
+  .politics-container {
+    display: grid;
+    grid-template-areas:
+      "trump"
+      "box-a"
+      "box-b"
+      "news-1"
+      "news-2"
+      "news-3"
+      "news-4";
+  }
+  .pol-f {
+    border-bottom: 1px solid #d8d8d8 !important;
+  }
+  .pol-a-content {
+    font-size: 28px;
+  }
+  .pol-a {
+    object-fit: cover;
+  }
+
+  /* food */
+  .food-container {
+    grid-template-areas:
+      "food-1"
+      "food-2"
+      "food-3"
+      "food-4";
+  }
+  .food-heading {
+    width: 60%;
+    font-size: 28px;
+  }
+
+  /* read */
+  .read {
+    display: block;
+    text-align: right;
+    margin: 2%;
+  }
+  /* reccent */
+  .recent-heading {
+    width: 60%;
+    font-size: 28px;
+  }
+  .recent-img {
+    object-fit: fill;
+  }
+  .recent-content {
+    font-size: 14px;
+    margin: 0;
+  }
+  .content-writer-1 {
+    font-size: 12px;
+  }
+  .content-writer {
+    font-size: 10px;
+  }
+  .recent-head {
+    width: 90%;
+  }
+}
